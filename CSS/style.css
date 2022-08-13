@@ -1,6 +1,10 @@
 .root{
     --first-text-colour:#757575;
     --secondary-text-colour:#212121;
+    --header-background-color:;
+    --footer-background-color:
+    --footer-text-color:
+
     
 }
 body{
@@ -11,6 +15,13 @@ body{
         line-height: 1.8;
         color:var(--first-text-colour);
         background-color: ##F5F5F5;
+}
+h3{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
 
 }
 .page-header{
@@ -39,10 +50,16 @@ line-height: 31px;}
     color:#2196F3;
     cursour:pointer;
 }
-.button:hover,.button:focus{
-    color: #2196F3;
-    cursour: pointer;
+.button{
+    background-color: #2196F3;
+    color:#FFFFFF;
 }
+.button:hover,.button:focus{
+    background-color: #188CE8;
+    color: #FFFFFF;
+    cursour:pointer;
+}
+
 .navigation{
 
 }
@@ -61,4 +78,8 @@ line-height: 31px;}
         font-size: 44px;
         line-height: 60px;
 
+}
+.page-footer{
+    background-color: #2F303A;
+    color:#ffffff;
 }
