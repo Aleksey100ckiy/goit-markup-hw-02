@@ -11,7 +11,8 @@
     --footer-navtext-color: rgba(255,255,255,0.6);
 }
 body{
-    font-family: 'Roboto';
+    font-family: 'Roboto','Montserrat',
+        sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -131,8 +132,6 @@ color:var(--first-text-colour);
 }
 .list{ list-style: none;
 }
-img{  background-color: var(--footer-bigtext-color);
-    display:block;}
 .main-theme{
 font-family: 'Roboto';
 font-style: normal;
@@ -177,19 +176,10 @@ background-color: var(--thirdsec-bcg-color);
         color:var(--footer-bigtext-color)
 }
 .footer-adress-link{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
         color:var(--footer-bigtext-color);
 
 }
-.footer-nav-link{font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+.footer-nav-link{
     color: var(--footer-navtext-color);
 }
 .portfolio-hero{
