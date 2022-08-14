@@ -121,12 +121,12 @@ color:var(--first-text-colour);
 .list{ list-style: none;
 }
 .main-theme{
-font-family: 'Roboto';
-font-weight: 900;
-font-size: 44px;
-line-height: 1.5;
-background-color:var(--footer-bcg-color);
-color:var(--footer-bigtext-color); }
+background-color:var(--footer-bcg-color); }
+.first-title{font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5;
+    color: var(--footer-bigtext-color);}
 
 .visually-hidden{
     position: absolute;
