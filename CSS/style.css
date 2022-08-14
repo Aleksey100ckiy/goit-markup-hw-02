@@ -13,7 +13,6 @@
 body{
     font-family: 'Roboto','Montserrat',
         sans-serif;
-        font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
@@ -25,7 +24,6 @@ background-color: var(--header-bcg-color);
 }
 .link.logo-site{
     font-family: 'Raleway'; 
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -37,13 +35,11 @@ color:var(--logo-button-color);
 
 .link{
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 text-decoration: none;
-color: var(--titles-colour);
-    
+color: var(--titles-colour); 
 }
 .link:hover,.link:focus{
 color:var(--logo-button-color);
@@ -51,7 +47,6 @@ cursor:pointer;}
 
 .button{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -69,7 +64,6 @@ cursor:pointer;
 }
 .portfolio-button{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -83,7 +77,6 @@ cursor:pointer;
 }
 .title-second-row{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.66;
@@ -93,7 +86,6 @@ cursor:pointer;
 }
 .title-third-row{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -104,7 +96,6 @@ cursor:pointer;
 }
 .neme-members-list{
     font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.18;
@@ -114,7 +105,6 @@ cursor:pointer;
 }
 .header-links~.link{
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -123,7 +113,6 @@ color:var(--titles-text-colour);
 }
 .navigation{
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -134,7 +123,6 @@ color:var(--first-text-colour);
 }
 .main-theme{
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.5;
@@ -169,14 +157,14 @@ background-color: var(--thirdsec-bcg-color);
 }
 .footer-logo-link{
     font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        color:var(--footer-bigtext-color)
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color:var(--footer-bigtext-color)
 }
 .footer-adress-link{
-        color:var(--footer-bigtext-color);
+    font-style: normal;
+    color:var(--footer-bigtext-color);
 
 }
 .footer-nav-link{
@@ -187,10 +175,9 @@ background-color: var(--thirdsec-bcg-color);
 }
 .portfolio-titles-list{
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
-        color: var(--titles-colour);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--titles-colour);
 }
