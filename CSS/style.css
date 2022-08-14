@@ -102,6 +102,13 @@ cursor:pointer;
         letter-spacing: 0.03em;
         color:var(--titles-colour);
 }
+.professions-list{
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--text-colour);
+}
 .header-links~.link{
 font-family: 'Roboto';
 font-weight: 500;
@@ -167,6 +174,7 @@ background-color: var(--thirdsec-bcg-color);
 
 }
 .footer-nav-link{
+    font-style: normal;
     color: var(--footer-navtext-color);
 }
 .portfolio-hero{
@@ -179,4 +187,10 @@ background-color: var(--thirdsec-bcg-color);
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--titles-colour);
+}
+.jobs-description-list{
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--text-colour);
 }
